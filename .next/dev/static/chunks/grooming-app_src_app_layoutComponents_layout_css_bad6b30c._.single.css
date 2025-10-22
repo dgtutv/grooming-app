@@ -1,0 +1,74 @@
+/* [project]/grooming-app/src/app/layoutComponents/layout.css [app-client] (css) */
+:root {
+  --header-bg: #181818;
+  --text-color: #e4e4e4;
+  --box-shadow: #000000db;
+  --link-hover: yellow;
+  --active-bg: #202020;
+  --active-border: yellow;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-bg: #d4d4d4;
+    --text-color: #213547;
+    --box-shadow: #757575db;
+    --link-hover: #6897fd;
+    --active-bg: #3a78ff;
+    --active-border: #3a78ff;
+  }
+}
+
+header {
+  background-color: var(--header-bg);
+  box-shadow: 0 4px 6px var(--box-shadow);
+  color: var(--text-color);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+nav {
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.linkStyle {
+  color: var(--text-color);
+  border-radius: 2px;
+  padding: .5rem 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.linkStyle:hover {
+  color: #fff;
+  background-color: var(--link-hover);
+}
+
+.activeLinkStyle {
+  color: #fff;
+  background-color: var(--active-bg);
+  border-bottom: 2px solid var(--active-border);
+  border-radius: 2px;
+  padding: .5rem 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+.activeLinkStyle:hover {
+  color: #fff;
+}
+
+h1 {
+  color: var(--text-color);
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=grooming-app_src_app_layoutComponents_layout_css_bad6b30c._.single.css.map*/
