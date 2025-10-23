@@ -108,14 +108,7 @@ a.secondary {
 }
 
 .page {
-  --background: linear-gradient(to bottom,
-      #b6ecc2 0%,
-      /* soft sage */
-      #e9e6f5 50%,
-      /* subtle misty white transition */
-      #c8a9d6 100%
-      /* gentle lavender */
-    );
+  --background: "white";
 
 
   --foreground: #000;

@@ -31,11 +31,11 @@ var _s = __turbopack_context__.k.signature();
 const Header = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "68515fdda056b849f5f3d16d33d1f9b3469fe57e16db8bfcbdd5305651149710") {
+    if ($[0] !== "b811affa44ab39776ee1c270670508d7882550b9345e028b50016160f308b979") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "68515fdda056b849f5f3d16d33d1f9b3469fe57e16db8bfcbdd5305651149710";
+        $[0] = "b811affa44ab39776ee1c270670508d7882550b9345e028b50016160f308b979";
     }
     const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
     let t0;
@@ -70,7 +70,7 @@ const Header = ()=>{
                     justifyContent: "space-between",
                     alignItems: "center",
                     padding: "1rem 2rem",
-                    bgcolor: "#d1e9d6ff",
+                    background: "linear-gradient(to right, #979067ff 0%, #e9e6f5 50%, #c8a9d6 100%)",
                     boxShadow: 1,
                     margin: 0
                 },
@@ -184,7 +184,7 @@ const Header = ()=>{
                     justifyContent: "space-between",
                     alignItems: "center",
                     padding: "1rem 2rem",
-                    bgcolor: "#d1e9d6ff",
+                    background: "linear-gradient(to right, #abdfbcff 0%, #e9e6f5 50%, #c8a9d6 100%)",
                     boxShadow: 1,
                     margin: 0
                 },

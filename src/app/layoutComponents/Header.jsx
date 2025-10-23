@@ -25,7 +25,7 @@ const Header = () => {
                         justifyContent: 'space-between',
                         alignItems: 'center',
                         padding: '1rem 2rem',
-                        bgcolor: '#d1e9d6ff',
+                        background: 'linear-gradient(to right, #979067ff 0%, #e9e6f5 50%, #c8a9d6 100%)',
                         boxShadow: 1,
                         margin: 0,
                     }}
@@ -88,7 +88,7 @@ const Header = () => {
                         justifyContent: 'space-between',
                         alignItems: 'center',
                         padding: '1rem 2rem',
-                        bgcolor: '#d1e9d6ff',
+                        background: 'linear-gradient(to right, #abdfbcff 0%, #e9e6f5 50%, #c8a9d6 100%)',
                         boxShadow: 1,
                         margin: 0,
                     }}
