@@ -1,21 +1,10 @@
 :root {
     --header-bg: #181818ff;
-    --text-color: #e4e4e4;
     --box-shadow: rgba(0, 0, 0, 0.86);
     --link-hover: yellow;
     --active-bg: #202020ff;
     --active-border: yellow;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --header-bg: #d4d4d4;
-        --text-color: #213547;
-        --box-shadow: rgba(117, 117, 117, 0.86);
-        --link-hover: rgb(104, 151, 253);
-        --active-bg: rgb(58, 120, 255);
-        --active-border: rgb(58, 120, 255);
-    }
+    --text-primary: black;
 }
 
 header {
@@ -68,4 +57,5 @@ h1 {
     margin: 0;
     font-size: 1.5rem;
     color: var(--text-color);
+    font-family: var(--font-playfair), serif;
 }

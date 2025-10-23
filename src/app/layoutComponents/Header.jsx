@@ -25,7 +25,7 @@ const Header = () => {
                         justifyContent: 'space-between',
                         alignItems: 'center',
                         padding: '1rem 2rem',
-                        bgcolor: 'background.paper',
+                        bgcolor: '#d1e9d6ff',
                         boxShadow: 1,
                         margin: 0,
                     }}
@@ -55,7 +55,7 @@ const Header = () => {
                         gap: "20px",
                     }}>
                         <Image
-                            src="/logo.svg"
+                            src="/logo-outline.svg"
                             alt="Chauffeur Grooming logo"
                             width={80}
                             height={80}
@@ -70,7 +70,7 @@ const Header = () => {
                     </Box>
                     <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                         <IconButton
-                            sx={{ zIndex: 1300, color: 'text.primary' }}
+                            sx={{ zIndex: 1300, color: 'black' }}
                             onClick={toggleMobileMenu}
                             aria-label="open menu"
                         >
@@ -88,7 +88,7 @@ const Header = () => {
                         justifyContent: 'space-between',
                         alignItems: 'center',
                         padding: '1rem 2rem',
-                        bgcolor: 'background.paper',
+                        bgcolor: '#d1e9d6ff',
                         boxShadow: 1,
                         margin: 0,
                     }}
@@ -100,7 +100,7 @@ const Header = () => {
                         gap: "20px"
                     }}>
                         <Image
-                            src="/logo.svg"
+                            src="/logo-outline.svg"
                             alt="Chauffeur Grooming logo"
                             width={80}
                             height={80}

@@ -1,20 +1,4 @@
 /* [project]/grooming-app/src/app/page.module.css [app-client] (css) */
-.page-module__y8eRWG__page {
-  --background: #fafafa;
-  --foreground: #fff;
-  --text-primary: #000;
-  --text-secondary: #666;
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-  min-height: 100vh;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 .page-module__y8eRWG__main {
   background-color: var(--foreground);
   flex-direction: column;
@@ -119,20 +103,28 @@ a.page-module__y8eRWG__secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .page-module__y8eRWG__logo {
-    filter: invert();
-  }
+.page-module__y8eRWG__logo {
+  filter: invert();
+}
 
-  .page-module__y8eRWG__page {
-    --background: #000;
-    --foreground: #000;
-    --text-primary: #ededed;
-    --text-secondary: #999;
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
-  }
+.page-module__y8eRWG__page {
+  --background: linear-gradient(to bottom, #b6ecc2 0%, #e9e6f5 50%, #c8a9d6 100%  );
+  --foreground: #000;
+  --text-primary: #000;
+  --text-secondary: #999;
+  --button-primary-hover: #ccc;
+  --button-secondary-hover: #1a1a1a;
+  --button-secondary-border: #1a1a1a;
+  background: var(--background);
+  min-height: 100vh;
+  font-family: var(--font-geist-sans);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: var(--background);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=grooming-app_src_app_page_module_8ed2700b.css.map*/

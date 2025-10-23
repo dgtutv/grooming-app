@@ -14,20 +14,20 @@ export default function ClientLayout({ children }) {
         () =>
             createTheme({
                 palette: {
-                    mode: prefersDarkMode ? 'dark' : 'light',
+                    mode: "light",
                     primary: {
                         main: '#646cff',
                     },
                     background: {
-                        default: prefersDarkMode ? '#242424' : '#dde4e6ff',
-                        paper: prefersDarkMode ? '#1b1b1bff' : '#ffffff',
+                        default: '#dde4e6ff',
+                        paper: '#ffffff',
                     },
                     text: {
-                        primary: prefersDarkMode ? 'rgba(255, 255, 255, 0.87)' : '#213547',
+                        primary: '#213547',
                     },
                 },
             }),
-        [prefersDarkMode]
+        []
     );
 
     // Hide header on auth pages

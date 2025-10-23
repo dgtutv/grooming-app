@@ -31,11 +31,11 @@ var _s = __turbopack_context__.k.signature();
 const Header = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "7f1f17086263e6f6d572b25973d59d7afeb39ff0acc7e06ea366140b26d5412c") {
+    if ($[0] !== "68515fdda056b849f5f3d16d33d1f9b3469fe57e16db8bfcbdd5305651149710") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7f1f17086263e6f6d572b25973d59d7afeb39ff0acc7e06ea366140b26d5412c";
+        $[0] = "68515fdda056b849f5f3d16d33d1f9b3469fe57e16db8bfcbdd5305651149710";
     }
     const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
     let t0;
@@ -70,7 +70,7 @@ const Header = ()=>{
                     justifyContent: "space-between",
                     alignItems: "center",
                     padding: "1rem 2rem",
-                    bgcolor: "background.paper",
+                    bgcolor: "#d1e9d6ff",
                     boxShadow: 1,
                     margin: 0
                 },
@@ -109,7 +109,7 @@ const Header = ()=>{
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/logo.svg",
+                                src: "/logo-outline.svg",
                                 alt: "Chauffeur Grooming logo",
                                 width: 80,
                                 height: 80,
@@ -153,7 +153,7 @@ const Header = ()=>{
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$IconButton$2f$IconButton$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IconButton$3e$__["IconButton"], {
                             sx: {
                                 zIndex: 1300,
-                                color: "text.primary"
+                                color: "black"
                             },
                             onClick: toggleMobileMenu,
                             "aria-label": "open menu",
@@ -184,7 +184,7 @@ const Header = ()=>{
                     justifyContent: "space-between",
                     alignItems: "center",
                     padding: "1rem 2rem",
-                    bgcolor: "background.paper",
+                    bgcolor: "#d1e9d6ff",
                     boxShadow: 1,
                     margin: 0
                 },
@@ -197,7 +197,7 @@ const Header = ()=>{
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            src: "/logo.svg",
+                            src: "/logo-outline.svg",
                             alt: "Chauffeur Grooming logo",
                             width: 80,
                             height: 80,
@@ -290,29 +290,28 @@ var _s = __turbopack_context__.k.signature();
 function ClientLayout(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
-    if ($[0] !== "aa3cebbc0a4d4e003302621fa558555f8e596ad10ce8f811ad4c9e1c89b24e01") {
+    if ($[0] !== "a410dedd617b7a9953c2d0f0fb8e3233a504c55b9c9adf125c6a91982d75c5a2") {
         for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "aa3cebbc0a4d4e003302621fa558555f8e596ad10ce8f811ad4c9e1c89b24e01";
+        $[0] = "a410dedd617b7a9953c2d0f0fb8e3233a504c55b9c9adf125c6a91982d75c5a2";
     }
     const { children } = t0;
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
-    const prefersDarkMode = true;
     let t1;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t1 = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$createTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__createTheme$3e$__["createTheme"])({
             palette: {
-                mode: ("TURBOPACK compile-time truthy", 1) ? "dark" : "TURBOPACK unreachable",
+                mode: "light",
                 primary: {
                     main: "#646cff"
                 },
                 background: {
-                    default: ("TURBOPACK compile-time truthy", 1) ? "#242424" : "TURBOPACK unreachable",
-                    paper: ("TURBOPACK compile-time truthy", 1) ? "#1b1b1bff" : "TURBOPACK unreachable"
+                    default: "#dde4e6ff",
+                    paper: "#ffffff"
                 },
                 text: {
-                    primary: ("TURBOPACK compile-time truthy", 1) ? "rgba(255, 255, 255, 0.87)" : "TURBOPACK unreachable"
+                    primary: "#213547"
                 }
             }
         });
@@ -340,7 +339,7 @@ function ClientLayout(t0) {
     if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CssBaseline$2f$CssBaseline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/grooming-app/src/app/layoutComponents/ClientLayout.jsx",
-            lineNumber: 55,
+            lineNumber: 54,
             columnNumber: 10
         }, this);
         $[3] = t3;
@@ -351,7 +350,7 @@ function ClientLayout(t0) {
     if ($[4] !== showHeader) {
         t4 = showHeader && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$src$2f$app$2f$layoutComponents$2f$Header$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/grooming-app/src/app/layoutComponents/ClientLayout.jsx",
-            lineNumber: 62,
+            lineNumber: 61,
             columnNumber: 24
         }, this);
         $[4] = showHeader;
@@ -370,7 +369,7 @@ function ClientLayout(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/grooming-app/src/app/layoutComponents/ClientLayout.jsx",
-            lineNumber: 70,
+            lineNumber: 69,
             columnNumber: 10
         }, this);
         $[6] = children;
