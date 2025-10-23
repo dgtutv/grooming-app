@@ -31,11 +31,11 @@ var _s = __turbopack_context__.k.signature();
 const Header = ()=>{
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
-    if ($[0] !== "092f52b45e8b07b538e5473d460206c9752601b920ffb4fca0122babf6493e5d") {
+    if ($[0] !== "7f1f17086263e6f6d572b25973d59d7afeb39ff0acc7e06ea366140b26d5412c") {
         for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "092f52b45e8b07b538e5473d460206c9752601b920ffb4fca0122babf6493e5d";
+        $[0] = "7f1f17086263e6f6d572b25973d59d7afeb39ff0acc7e06ea366140b26d5412c";
     }
     const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
     let t0;
@@ -122,9 +122,12 @@ const Header = ()=>{
                                 columnNumber: 12
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                                variant: "h4",
+                                variant: "h5",
                                 component: "h1",
                                 color: "text.primary",
+                                sx: {
+                                    fontFamily: "'Playfair Display', serif"
+                                },
                                 onClick: (e)=>{
                                     e.preventDefault();
                                     router.push("/");
@@ -156,17 +159,17 @@ const Header = ()=>{
                             "aria-label": "open menu",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$icons$2d$material$2f$esm$2f$Menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/grooming-app/src/app/layoutComponents/Header.jsx",
-                                lineNumber: 76,
+                                lineNumber: 78,
                                 columnNumber: 64
                             }, ("TURBOPACK compile-time value", void 0))
                         }, void 0, false, {
                             fileName: "[project]/grooming-app/src/app/layoutComponents/Header.jsx",
-                            lineNumber: 73,
+                            lineNumber: 75,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/grooming-app/src/app/layoutComponents/Header.jsx",
-                        lineNumber: 69,
+                        lineNumber: 71,
                         columnNumber: 51
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -203,13 +206,16 @@ const Header = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "[project]/grooming-app/src/app/layoutComponents/Header.jsx",
-                            lineNumber: 89,
+                            lineNumber: 91,
                             columnNumber: 12
                         }, ("TURBOPACK compile-time value", void 0)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$grooming$2d$app$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
-                            variant: "h3",
+                            variant: "h4",
                             component: "h1",
                             color: "text.primary",
+                            sx: {
+                                fontFamily: "'Playfair Display', serif"
+                            },
                             onClick: (e_0)=>{
                                 e_0.preventDefault();
                                 router.push("/");
@@ -217,18 +223,18 @@ const Header = ()=>{
                             children: "Chauffeur Grooming"
                         }, void 0, false, {
                             fileName: "[project]/grooming-app/src/app/layoutComponents/Header.jsx",
-                            lineNumber: 91,
+                            lineNumber: 93,
                             columnNumber: 16
                         }, ("TURBOPACK compile-time value", void 0))
                     ]
                 }, void 0, true, {
                     fileName: "[project]/grooming-app/src/app/layoutComponents/Header.jsx",
-                    lineNumber: 84,
+                    lineNumber: 86,
                     columnNumber: 10
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/grooming-app/src/app/layoutComponents/Header.jsx",
-                lineNumber: 76,
+                lineNumber: 78,
                 columnNumber: 104
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false);
