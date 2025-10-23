@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import "./layout.css"
+import "./layout.css";
 import { IconButton, Drawer, Button, Box, Typography, useMediaQuery, useTheme, Divider } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 
 const Header = () => {
@@ -37,7 +38,7 @@ const Header = () => {
                             "& .MuiDrawer-paper": {
                                 width: "280px",
                                 maxWidth: "75vw",
-                                bgcolor: 'background.paper',
+                                bgcolor: '#000000',
                                 borderRight: 1,
                                 borderColor: 'divider',
                                 display: 'flex',
@@ -47,12 +48,26 @@ const Header = () => {
                     >
                         <Divider />
                     </Drawer>
-                    <Typography variant="h5" component="h1" color="text.primary" onClick={(e) => {
-                        e.preventDefault();
-                        router.push('/');
+                    <Box sx={{
+                        display: "flex",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        gap: "20px",
                     }}>
-                        Messenger
-                    </Typography>
+                        <Image
+                            src="/logo.svg"
+                            alt="Chauffeur Grooming logo"
+                            width={80}
+                            height={80}
+                            style={{ display: 'block' }}
+                        />
+                        <Typography variant="h4" component="h1" color="text.primary" onClick={(e) => {
+                            e.preventDefault();
+                            router.push('/');
+                        }}>
+                            Chauffeur Grooming
+                        </Typography>
+                    </Box>
                     <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
                         <IconButton
                             sx={{ zIndex: 1300, color: 'text.primary' }}
@@ -78,13 +93,28 @@ const Header = () => {
                         margin: 0,
                     }}
                 >
-                    <Typography variant="h5" component="h1" color="text.primary" onClick={(e) => {
-                        e.preventDefault();
-                        router.push('/');
+                    <Box sx={{
+                        display: "flex",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        gap: "20px"
                     }}>
-                        Chauffeur Grooming
-                    </Typography>
-                </Box>
+                        <Image
+                            src="/logo.svg"
+                            alt="Chauffeur Grooming logo"
+                            width={80}
+                            height={80}
+                            style={{ display: 'block' }}
+                        />
+                        <Typography variant="h3" component="h1" color="text.primary" onClick={(e) => {
+                            e.preventDefault();
+                            router.push('/');
+                        }}>
+                            Chauffeur Grooming
+                        </Typography>
+                    </Box>
+
+                </Box >
             )
             }
         </>
