@@ -36,20 +36,20 @@ const ABBOTSFORD_COORDS = [
     49.0504,
     -122.3045
 ];
-const RADIUS_METERS = 10000; // 10 km radius
+const RADIUS_METERS = 40000; // 10 km radius
 function Map() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "665705c8a15445e3dd2cea20fe40b08359d7fc323f1a11da0caf1aea2c85ecb0") {
+    if ($[0] !== "51480d1fdabf3641a8968ff85d4ac14d1baffe687e2ab4d4e5dedef903afa174") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "665705c8a15445e3dd2cea20fe40b08359d7fc323f1a11da0caf1aea2c85ecb0";
+        $[0] = "51480d1fdabf3641a8968ff85d4ac14d1baffe687e2ab4d4e5dedef903afa174";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
         t0 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$MapContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MapContainer"], {
             center: ABBOTSFORD_COORDS,
-            zoom: 12,
+            zoom: 9.2,
             scrollWheelZoom: false,
             style: {
                 height: "400px",

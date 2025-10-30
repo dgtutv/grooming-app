@@ -17,13 +17,13 @@ L.Icon.Default.mergeOptions({
 
 // Abbotsford, BC coordinates
 const ABBOTSFORD_COORDS = [49.0504, -122.3045];
-const RADIUS_METERS = 10000; // 10 km radius
+const RADIUS_METERS = 40000; // 10 km radius
 
 function Map() {
     return (
         <MapContainer
             center={ABBOTSFORD_COORDS}
-            zoom={12}
+            zoom={9.2}
             scrollWheelZoom={false}
             style={{ height: '400px', width: '100%' }}
         >
