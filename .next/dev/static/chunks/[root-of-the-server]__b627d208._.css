@@ -149,7 +149,6 @@ a {
 
 header {
   background-color: var(--header-bg);
-  box-shadow: 0 4px 6px var(--box-shadow);
   color: var(--text-color);
   border-bottom: 1px solid var(--text-color);
   justify-content: space-between;
@@ -161,7 +160,6 @@ header {
 
 .headerCommon {
   background-color: var(--header-bg);
-  box-shadow: 0 4px 6px var(--box-shadow);
   justify-content: space-between;
   align-items: center;
   margin: 0;

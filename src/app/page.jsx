@@ -71,7 +71,7 @@ export default function Home() {
             }}>
                 <Box sx={{ flexGrow: "2" }}>
                     <Typography variant="h4">Servicing The Fraser Valley</Typography>
-                    <Typography variant="subtitle">Locations may vary</Typography>
+                    <Typography variant="subtitle">Since 2025</Typography>
                 </Box>
                 <Map style={{ flexGrow: "5" }} />
             </Box>

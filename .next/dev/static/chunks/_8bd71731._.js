@@ -51,11 +51,11 @@ _c = Map;
 function Home() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(22);
-    if ($[0] !== "84834819cf15c2bf74abea624d5a525a5d5f7ff3bed0730819675f64b4031d86") {
+    if ($[0] !== "31a4e3d50479ae7765f9a990bf5800815ffea8f5f229ae72c7d5852779943231") {
         for(let $i = 0; $i < 22; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "84834819cf15c2bf74abea624d5a525a5d5f7ff3bed0730819675f64b4031d86";
+        $[0] = "31a4e3d50479ae7765f9a990bf5800815ffea8f5f229ae72c7d5852779943231";
     }
     const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
     let t0;
@@ -252,7 +252,7 @@ function Home() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
                     variant: "subtitle",
-                    children: "Locations may vary"
+                    children: "Since 2025"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.jsx",
                     lineNumber: 146,

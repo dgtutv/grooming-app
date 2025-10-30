@@ -15,7 +15,6 @@ header {
     align-items: center;
     padding: 1rem 2rem;
     background-color: var(--header-bg);
-    box-shadow: 0 4px 6px var(--box-shadow);
     margin: 0;
     color: var(--text-color);
     border-bottom: 1px solid var(--text-color);
@@ -30,7 +29,6 @@ header {
     /* keep the existing gradient used in the component */
     /*   background: linear-gradient(to right, #abdfbcff 0%, #e9e6f5 50%, #c8a9d6 100%);*/
     background-color: var(--header-bg);
-    box-shadow: 0 4px 6px var(--box-shadow);
     margin: 0;
 }
 
