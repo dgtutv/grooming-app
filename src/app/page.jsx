@@ -10,7 +10,8 @@ export default function Home() {
     <Box sx={{
       width: "100%",
       height: "60vh",
-      backgroundImage: "url('./cover.jpg')",
+      backgroundImage: "url('./purple-paws.jpg')",
+      backgroundSize: "cover",
       color: "white",
       display: "flex",
       justifyContent: "center",
@@ -23,7 +24,8 @@ export default function Home() {
         alignItems: "center",
         gap: "10px",
         backgroundColor: "rgba(0, 0, 0, 0.3)",
-        padding: "40px 20px",
+        height: "60vh",
+        width: "100%",
         borderRadius: "15px",
         textAlign: "center"
 
@@ -37,8 +39,8 @@ export default function Home() {
           gap: "20px",
           marginTop: "40px"
         }}>
-          <Button variant="contained">Our Services</Button>
-          <Button variant="outlined">Contact Us</Button>
+          <Button sx={{ color: "white", backgroundColor: "black" }} variant="contained">Our Services</Button>
+          <Button sx={{ color: "white", backgroundColor: "black" }} variant="contained">Contact Us</Button>
         </Box>
       </Box>
     </Box>

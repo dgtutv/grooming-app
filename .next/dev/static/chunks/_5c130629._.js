@@ -36,12 +36,12 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Home() {
     _s();
-    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(8);
-    if ($[0] !== "331db10a8bca5d8830f845c2305b56d971b7c5cbb62712ad907017b87861579b") {
-        for(let $i = 0; $i < 8; $i += 1){
+    const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(10);
+    if ($[0] !== "ce8a7137c9df031ed5a00c087e8486cdcc1b6fbab90e495049705e26f23c387d") {
+        for(let $i = 0; $i < 10; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "331db10a8bca5d8830f845c2305b56d971b7c5cbb62712ad907017b87861579b";
+        $[0] = "ce8a7137c9df031ed5a00c087e8486cdcc1b6fbab90e495049705e26f23c387d";
     }
     const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
     let t0;
@@ -58,7 +58,8 @@ function Home() {
         t1 = {
             width: "100%",
             height: "60vh",
-            backgroundImage: "url('./cover.jpg')",
+            backgroundImage: "url('./purple-paws.jpg')",
+            backgroundSize: "cover",
             color: "white",
             display: "flex",
             justifyContent: "center",
@@ -79,7 +80,8 @@ function Home() {
             alignItems: "center",
             gap: "10px",
             backgroundColor: "rgba(0, 0, 0, 0.3)",
-            padding: "40px 20px",
+            height: "60vh",
+            width: "100%",
             borderRadius: "15px",
             textAlign: "center"
         };
@@ -88,7 +90,7 @@ function Home() {
             children: "Chauffeur Grooming"
         }, void 0, false, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 55,
+            lineNumber: 57,
             columnNumber: 10
         }, this);
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -96,7 +98,7 @@ function Home() {
             children: "Mobile pet grooming delivered to your doorstep — comfortable, safe, and personalized care for every pet."
         }, void 0, false, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 56,
+            lineNumber: 58,
             columnNumber: 10
         }, this);
         $[4] = t2;
@@ -109,7 +111,38 @@ function Home() {
     }
     let t5;
     if ($[7] === Symbol.for("react.memo_cache_sentinel")) {
-        t5 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
+        t5 = {
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "20px",
+            marginTop: "40px"
+        };
+        $[7] = t5;
+    } else {
+        t5 = $[7];
+    }
+    let t6;
+    if ($[8] === Symbol.for("react.memo_cache_sentinel")) {
+        t6 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+            sx: {
+                color: "white",
+                backgroundColor: "black"
+            },
+            variant: "contained",
+            children: "Our Services"
+        }, void 0, false, {
+            fileName: "[project]/src/app/page.jsx",
+            lineNumber: 82,
+            columnNumber: 10
+        }, this);
+        $[8] = t6;
+    } else {
+        t6 = $[8];
+    }
+    let t7;
+    if ($[9] === Symbol.for("react.memo_cache_sentinel")) {
+        t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
             sx: t1,
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
                 sx: t2,
@@ -117,52 +150,43 @@ function Home() {
                     t3,
                     t4,
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
-                        sx: {
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            gap: "20px",
-                            marginTop: "40px"
-                        },
+                        sx: t5,
                         children: [
+                            t6,
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                                sx: {
+                                    color: "white",
+                                    backgroundColor: "black"
+                                },
                                 variant: "contained",
-                                children: "Our Services"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/page.jsx",
-                                lineNumber: 73,
-                                columnNumber: 12
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                                variant: "outlined",
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.jsx",
-                                lineNumber: 73,
+                                lineNumber: 92,
                                 columnNumber: 61
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/page.jsx",
-                        lineNumber: 67,
+                        lineNumber: 92,
                         columnNumber: 44
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.jsx",
-                lineNumber: 67,
+                lineNumber: 92,
                 columnNumber: 23
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 67,
+            lineNumber: 92,
             columnNumber: 10
         }, this);
-        $[7] = t5;
+        $[9] = t7;
     } else {
-        t5 = $[7];
+        t7 = $[9];
     }
-    return t5;
+    return t7;
 }
 _s(Home, "mLC+oeJEiub8qPnntW+aNrSrv6A=", false, function() {
     return [

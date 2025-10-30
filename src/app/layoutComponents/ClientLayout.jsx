@@ -26,6 +26,28 @@ export default function ClientLayout({ children }) {
                         primary: '#213547',
                     },
                 },
+                typography: {
+                    // Use the CSS variable provided by next/font (Lora) for the whole app
+                    fontFamily: 'var(--font-lora), serif',
+                },
+                components: {
+                    MuiButton: {
+                        defaultProps: {
+                            // make buttons contained by default if desired
+                            variant: 'contained',
+                        },
+                        styleOverrides: {
+                            contained: {
+                                backgroundColor: '#000000',
+                                color: '#ffffff',
+                                boxShadow: 'none',
+                                '&:hover': {
+                                    backgroundColor: '#111111',
+                                },
+                            },
+                        },
+                    },
+                },
             }),
         []
     );

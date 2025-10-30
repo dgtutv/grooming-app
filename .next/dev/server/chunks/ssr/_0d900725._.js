@@ -38,7 +38,8 @@ function Home() {
         sx: {
             width: "100%",
             height: "60vh",
-            backgroundImage: "url('./cover.jpg')",
+            backgroundImage: "url('./purple-paws.jpg')",
+            backgroundSize: "cover",
             color: "white",
             display: "flex",
             justifyContent: "center",
@@ -52,7 +53,8 @@ function Home() {
                 alignItems: "center",
                 gap: "10px",
                 backgroundColor: "rgba(0, 0, 0, 0.3)",
-                padding: "40px 20px",
+                height: "60vh",
+                width: "100%",
                 borderRadius: "15px",
                 textAlign: "center"
             },
@@ -62,7 +64,7 @@ function Home() {
                     children: "Chauffeur Grooming"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.jsx",
-                    lineNumber: 31,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -70,7 +72,7 @@ function Home() {
                     children: "Mobile pet grooming delivered to your doorstep — comfortable, safe, and personalized care for every pet."
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.jsx",
-                    lineNumber: 32,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Box$2f$Box$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Box$3e$__["Box"], {
@@ -83,31 +85,39 @@ function Home() {
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
+                            sx: {
+                                color: "white",
+                                backgroundColor: "black"
+                            },
                             variant: "contained",
                             children: "Our Services"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.jsx",
-                            lineNumber: 40,
+                            lineNumber: 42,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Button$3e$__["Button"], {
-                            variant: "outlined",
+                            sx: {
+                                color: "white",
+                                backgroundColor: "black"
+                            },
+                            variant: "contained",
                             children: "Contact Us"
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.jsx",
-                            lineNumber: 41,
+                            lineNumber: 43,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.jsx",
-                    lineNumber: 33,
+                    lineNumber: 35,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 19,
+            lineNumber: 20,
             columnNumber: 7
         }, this)
     }, void 0, false, {

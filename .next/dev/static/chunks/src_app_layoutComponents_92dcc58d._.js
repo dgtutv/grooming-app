@@ -290,11 +290,11 @@ var _s = __turbopack_context__.k.signature();
 function ClientLayout(t0) {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(9);
-    if ($[0] !== "a410dedd617b7a9953c2d0f0fb8e3233a504c55b9c9adf125c6a91982d75c5a2") {
+    if ($[0] !== "b19ddd53b5662992e31dae3c148304fb436cdca142cafec5d4a9c806009cbaf3") {
         for(let $i = 0; $i < 9; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "a410dedd617b7a9953c2d0f0fb8e3233a504c55b9c9adf125c6a91982d75c5a2";
+        $[0] = "b19ddd53b5662992e31dae3c148304fb436cdca142cafec5d4a9c806009cbaf3";
     }
     const { children } = t0;
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
@@ -312,6 +312,26 @@ function ClientLayout(t0) {
                 },
                 text: {
                     primary: "#213547"
+                }
+            },
+            typography: {
+                fontFamily: "var(--font-lora), serif"
+            },
+            components: {
+                MuiButton: {
+                    defaultProps: {
+                        variant: "contained"
+                    },
+                    styleOverrides: {
+                        contained: {
+                            backgroundColor: "#000000",
+                            color: "#ffffff",
+                            boxShadow: "none",
+                            "&:hover": {
+                                backgroundColor: "#111111"
+                            }
+                        }
+                    }
                 }
             }
         });
@@ -339,7 +359,7 @@ function ClientLayout(t0) {
     if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
         t3 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$CssBaseline$2f$CssBaseline$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/src/app/layoutComponents/ClientLayout.jsx",
-            lineNumber: 54,
+            lineNumber: 74,
             columnNumber: 10
         }, this);
         $[3] = t3;
@@ -350,7 +370,7 @@ function ClientLayout(t0) {
     if ($[4] !== showHeader) {
         t4 = showHeader && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$layoutComponents$2f$Header$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/src/app/layoutComponents/ClientLayout.jsx",
-            lineNumber: 61,
+            lineNumber: 81,
             columnNumber: 24
         }, this);
         $[4] = showHeader;
@@ -369,7 +389,7 @@ function ClientLayout(t0) {
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/layoutComponents/ClientLayout.jsx",
-            lineNumber: 69,
+            lineNumber: 89,
             columnNumber: 10
         }, this);
         $[6] = children;

@@ -1,6 +1,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* fallback definition for the app serif (next/font will set the real variable when the class is on <body>) */
+  --font-lora: 'Lora', 'Playfair Display', serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,7 +21,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-lora), serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
