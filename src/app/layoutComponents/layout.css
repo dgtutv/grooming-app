@@ -1,5 +1,5 @@
 :root {
-    --header-bg: #181818ff;
+    --header-bg: #dfd9eb;
     --box-shadow: rgba(0, 0, 0, 0.86);
     --link-hover: yellow;
     --active-bg: #202020ff;
@@ -19,6 +19,27 @@ header {
     margin: 0;
     color: var(--text-color);
     border-bottom: 1px solid var(--text-color);
+}
+
+/* Reusable header class used by the Header component to centralize common styles */
+.headerCommon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* keep the existing gradient used in the component */
+    /*   background: linear-gradient(to right, #abdfbcff 0%, #e9e6f5 50%, #c8a9d6 100%);*/
+    background-color: var(--header-bg);
+    box-shadow: 0 4px 6px var(--box-shadow);
+    margin: 0;
+}
+
+/* Inner container used for logo + title alignment */
+.headerInner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
 
 nav {

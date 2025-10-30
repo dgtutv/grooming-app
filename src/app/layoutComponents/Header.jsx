@@ -20,15 +20,7 @@ const Header = () => {
             {isMobile ? (
                 <Box
                     component="header"
-                    sx={{
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        alignItems: 'center',
-                        padding: '1rem 2rem',
-                        background: 'linear-gradient(to right, #abdfbcff 0%, #e9e6f5 50%, #c8a9d6 100%)',
-                        boxShadow: 1,
-                        margin: 0,
-                    }}
+                    className="headerCommon"
                 >
                     <Drawer
                         anchor="left"
@@ -48,12 +40,7 @@ const Header = () => {
                     >
                         <Divider />
                     </Drawer>
-                    <Box sx={{
-                        display: "flex",
-                        flexDirection: "row",
-                        alignItems: "center",
-                        gap: "20px",
-                    }}>
+                    <Box className="headerInner">
                         <Image
                             src="/logo-outline.svg"
                             alt="Chauffeur Grooming logo"
@@ -83,22 +70,9 @@ const Header = () => {
             ) : (
                 <Box
                     component="header"
-                    sx={{
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        alignItems: 'center',
-                        padding: '1rem 2rem',
-                        background: 'linear-gradient(to right, #abdfbcff 0%, #e9e6f5 50%, #c8a9d6 100%)',
-                        boxShadow: 1,
-                        margin: 0,
-                    }}
+                    className="headerCommon"
                 >
-                    <Box sx={{
-                        display: "flex",
-                        flexDirection: "row",
-                        alignItems: "center",
-                        gap: "20px"
-                    }}>
+                    <Box className="headerInner">
                         <Image
                             src="/logo-outline.svg"
                             alt="Chauffeur Grooming logo"

@@ -1,6 +1,6 @@
 /* [project]/src/app/layoutComponents/layout.css [app-client] (css) */
 :root {
-  --header-bg: #181818;
+  --header-bg: #d9e4eb;
   --box-shadow: #000000db;
   --link-hover: yellow;
   --active-bg: #202020;
@@ -18,6 +18,23 @@ header {
   align-items: center;
   margin: 0;
   padding: 1rem 2rem;
+  display: flex;
+}
+
+.headerCommon {
+  background-color: var(--header-bg);
+  box-shadow: 0 4px 6px var(--box-shadow);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.headerInner {
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
   display: flex;
 }
 
