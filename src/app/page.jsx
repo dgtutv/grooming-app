@@ -16,7 +16,7 @@ export default function Home() {
             <Box sx={{
                 width: "100%",
                 height: "60vh",
-                backgroundImage: "url('./purple-paws.jpg')",
+                backgroundImage: "url('./golden-tinted-paws.jpg')",
                 backgroundSize: "cover",
                 color: "white",
                 display: "flex",

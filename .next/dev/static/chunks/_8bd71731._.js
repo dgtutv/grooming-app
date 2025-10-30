@@ -51,11 +51,11 @@ _c = Map;
 function Home() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "08cbd2c9d93cc5f34eafb364b01a6b26ead81a06da7a8fa83f571a32dfb252e4") {
+    if ($[0] !== "3fd6f5d45ca6d157c8f53dc23ade9e6bd93e4ccdbd4a74df5d654fafb44055c5") {
         for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "08cbd2c9d93cc5f34eafb364b01a6b26ead81a06da7a8fa83f571a32dfb252e4";
+        $[0] = "3fd6f5d45ca6d157c8f53dc23ade9e6bd93e4ccdbd4a74df5d654fafb44055c5";
     }
     const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
     let t0;
@@ -72,7 +72,7 @@ function Home() {
         t1 = {
             width: "100%",
             height: "60vh",
-            backgroundImage: "url('./purple-paws.jpg')",
+            backgroundImage: "url('./golden-tinted-paws.jpg')",
             backgroundSize: "cover",
             color: "white",
             display: "flex",
