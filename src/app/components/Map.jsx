@@ -16,7 +16,7 @@ L.Icon.Default.mergeOptions({
 });
 
 // Abbotsford, BC coordinates
-const MAP_COORDS = [49.230200, -122.354387];
+const MAP_COORDS = [49.230104, -122.303058];
 const ABBOTSFORD_COORDS = [49.0504, -122.3045];
 const RADIUS_METERS = 40000; // 10 km radius
 

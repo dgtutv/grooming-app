@@ -33,8 +33,8 @@ __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$
 });
 // Abbotsford, BC coordinates
 const MAP_COORDS = [
-    49.230200,
-    -122.354387
+    49.230104,
+    -122.303058
 ];
 const ABBOTSFORD_COORDS = [
     49.0504,
@@ -43,11 +43,11 @@ const ABBOTSFORD_COORDS = [
 const RADIUS_METERS = 40000; // 10 km radius
 function Map() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "61426b357d84c788f80862ca657f89e53f1e5bae6b7e18d282d0b68f2b5b00db") {
+    if ($[0] !== "63f25c6c68e85bd4e1310ad35fcdec7977924311cbb23cdb3f08e97a3f509e12") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "61426b357d84c788f80862ca657f89e53f1e5bae6b7e18d282d0b68f2b5b00db";
+        $[0] = "63f25c6c68e85bd4e1310ad35fcdec7977924311cbb23cdb3f08e97a3f509e12";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
