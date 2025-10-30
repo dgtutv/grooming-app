@@ -120,7 +120,8 @@ a.secondary {
 
   /* This line actually applies the gradient */
   background: var(--background);
-  background-attachment: fixed;
+  /* make the background follow the element's size/flow instead of being fixed to the viewport */
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
