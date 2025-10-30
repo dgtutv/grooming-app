@@ -17,7 +17,7 @@ export default function Home() {
                 width: "100%",
                 height: "60vh",
                 backgroundImage: "url('./golden-tinted-paws.jpg')",
-                backgroundSize: "cover",
+                backgroundSize: isMobile ? "fit" : "cover",
                 color: "white",
                 display: "flex",
                 justifyContent: "center",
@@ -52,7 +52,16 @@ export default function Home() {
                     </Box>
                 </Box>
             </Box>
-            <Box sx={{
+            <Box sx={isMobile ? {
+                width: '100%',
+                padding: '2rem 1rem',
+                backgroundColor: 'transparent',
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "flex-start",
+                alignItems: "center",
+                gap: "20px"
+            } : {
                 width: '100%',
                 padding: '2rem 1rem',
                 backgroundColor: 'transparent',
