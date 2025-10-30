@@ -20,6 +20,7 @@ __turbopack_context__.s([
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$leaflet$2d$src$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/leaflet/dist/leaflet-src.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$icon$2d$2x$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/leaflet/dist/images/marker-icon-2x.png (static in ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$icon$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/leaflet/dist/images/marker-icon.png (static in ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$shadow$2e$png__$28$static__in__ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/leaflet/dist/images/marker-shadow.png (static in ecmascript)");
@@ -34,9 +35,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$lea
 ;
 ;
 ;
+;
 // Fix Leaflet's default icon paths so markers render correctly in Next.js builds
-delete L.Icon.Default.prototype._getIconUrl;
-L.Icon.Default.mergeOptions({
+delete __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$leaflet$2d$src$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Icon.Default.prototype._getIconUrl;
+__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$leaflet$2d$src$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].Icon.Default.mergeOptions({
     iconRetinaUrl: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$icon$2d$2x$2e$png__$28$static__in__ecmascript$29$__["default"].src || __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$icon$2d$2x$2e$png__$28$static__in__ecmascript$29$__["default"],
     iconUrl: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$icon$2e$png__$28$static__in__ecmascript$29$__["default"].src || __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$icon$2e$png__$28$static__in__ecmascript$29$__["default"],
     shadowUrl: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$shadow$2e$png__$28$static__in__ecmascript$29$__["default"].src || __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$leaflet$2f$dist$2f$images$2f$marker$2d$shadow$2e$png__$28$static__in__ecmascript$29$__["default"]
@@ -49,11 +51,11 @@ const ABBOTSFORD_COORDS = [
 const RADIUS_METERS = 10000; // 10 km radius
 function Map() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(2);
-    if ($[0] !== "8b84a91a001c24ae88bde473e3261e9ce4f4dc19d14ac7bdd9082479017de446") {
+    if ($[0] !== "665705c8a15445e3dd2cea20fe40b08359d7fc323f1a11da0caf1aea2c85ecb0") {
         for(let $i = 0; $i < 2; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "8b84a91a001c24ae88bde473e3261e9ce4f4dc19d14ac7bdd9082479017de446";
+        $[0] = "665705c8a15445e3dd2cea20fe40b08359d7fc323f1a11da0caf1aea2c85ecb0";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -71,7 +73,7 @@ function Map() {
                     url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/Map.jsx",
-                    lineNumber: 35,
+                    lineNumber: 36,
                     columnNumber: 8
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$leaflet$2f$lib$2f$Circle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Circle"], {
@@ -79,13 +81,13 @@ function Map() {
                     radius: RADIUS_METERS
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/Map.jsx",
-                    lineNumber: 35,
+                    lineNumber: 36,
                     columnNumber: 182
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/components/Map.jsx",
-            lineNumber: 32,
+            lineNumber: 33,
             columnNumber: 10
         }, this);
         $[1] = t0;

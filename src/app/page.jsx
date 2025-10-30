@@ -2,7 +2,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Box, Card, Button, useMediaQuery, useTheme, Typography } from "@mui/material";
-import Map from './components/Map';
+import dynamic from 'next/dynamic';
+
+// Dynamically import the Map component on the client only to avoid server-side
+// evaluation of browser-only libraries (leaflet / react-leaflet).
+const Map = dynamic(() => import('./components/Map'), { ssr: false });
 
 export default function Home() {
     const theme = useTheme();
