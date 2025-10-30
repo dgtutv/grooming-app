@@ -33,7 +33,7 @@ export default function Page() {
         <Box sx={{ maxWidth: 1100, mx: 'auto', px: 2, py: 6 }}>
             <Typography variant="h3" component="h1" sx={{ textAlign: 'center', mb: 2 }}>About Us</Typography>
             <Typography variant="subtitle1" color="text.secondary" sx={{ textAlign: 'center', mb: 4 }}>
-                Convenient, compassionate grooming focused on your pet's comfort and safety.
+                At Chauffeur Grooming, our mission is to make grooming as convenient, comfortable, and safe as possible. We focus on creating a calm, one-on-one experience in a clean and stress-free environment. Your pet's comfort and safety are always our top priority.
             </Typography>
 
             <Grid container spacing={4}>

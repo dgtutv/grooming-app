@@ -180,7 +180,7 @@ function Page() {
                     textAlign: 'center',
                     mb: 4
                 },
-                children: "Convenient, compassionate grooming focused on your pet's comfort and safety."
+                children: "At Chauffeur Grooming, our mission is to make grooming as convenient, comfortable, and safe as possible. We focus on creating a calm, one-on-one experience in a clean and stress-free environment. Your pet's comfort and safety are always our top priority."
             }, void 0, false, {
                 fileName: "[project]/src/app/about-us/page.jsx",
                 lineNumber: 35,
