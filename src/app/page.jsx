@@ -53,8 +53,19 @@ export default function Home() {
                     </Box>
                 </Box>
             </Box>
-            <Box sx={{ width: '100%', padding: '2rem 1rem', backgroundColor: 'transparent' }}>
-                <Map />
+            <Box sx={{
+                width: '100%',
+                padding: '2rem 1rem',
+                backgroundColor: 'transparent',
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between"
+            }}>
+                <Box sx={{ flexGrow: "2" }}>
+                    <Typography variant="h4">Servicing The Fraser Valley</Typography>
+                    <Typography variant="subtitle">Locations may vary</Typography>
+                </Box>
+                <Map style={{ flexGrow: "5" }} />
             </Box>
         </Box>
     );
