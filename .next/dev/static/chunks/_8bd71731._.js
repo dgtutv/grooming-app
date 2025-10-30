@@ -51,11 +51,11 @@ _c = Map;
 function Home() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(13);
-    if ($[0] !== "3fd6f5d45ca6d157c8f53dc23ade9e6bd93e4ccdbd4a74df5d654fafb44055c5") {
+    if ($[0] !== "f18ff2fc0c81124ee22b3a78a24f8fd896db65d5039da6030b032515ac8cf9bf") {
         for(let $i = 0; $i < 13; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "3fd6f5d45ca6d157c8f53dc23ade9e6bd93e4ccdbd4a74df5d654fafb44055c5";
+        $[0] = "f18ff2fc0c81124ee22b3a78a24f8fd896db65d5039da6030b032515ac8cf9bf";
     }
     const theme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useTheme$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useTheme$3e$__["useTheme"])();
     let t0;
@@ -96,7 +96,6 @@ function Home() {
             backgroundColor: "rgba(0, 0, 0, 0.3)",
             height: "60vh",
             width: "100%",
-            borderRadius: "15px",
             textAlign: "center",
             padding: "10px 60px",
             fontSize: "1.3rem"
@@ -106,7 +105,7 @@ function Home() {
             children: "Chauffeur Grooming"
         }, void 0, false, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 66,
+            lineNumber: 65,
             columnNumber: 10
         }, this);
         t4 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -114,7 +113,7 @@ function Home() {
             children: "Mobile pet grooming delivered to your doorstep — comfortable, safe, and personalized care for every pet."
         }, void 0, false, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 67,
+            lineNumber: 66,
             columnNumber: 10
         }, this);
         $[4] = t2;
@@ -149,7 +148,7 @@ function Home() {
             children: "Our Services"
         }, void 0, false, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 91,
+            lineNumber: 90,
             columnNumber: 10
         }, this);
         $[8] = t6;
@@ -178,24 +177,24 @@ function Home() {
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/page.jsx",
-                                lineNumber: 101,
+                                lineNumber: 100,
                                 columnNumber: 61
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/page.jsx",
-                        lineNumber: 101,
+                        lineNumber: 100,
                         columnNumber: 44
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/page.jsx",
-                lineNumber: 101,
+                lineNumber: 100,
                 columnNumber: 23
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 101,
+            lineNumber: 100,
             columnNumber: 10
         }, this);
         $[9] = t7;
@@ -228,7 +227,7 @@ function Home() {
                     children: "Servicing The Fraser Valley"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.jsx",
-                    lineNumber: 127,
+                    lineNumber: 126,
                     columnNumber: 8
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Typography$2f$Typography$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__["Typography"], {
@@ -236,13 +235,13 @@ function Home() {
                     children: "Locations may vary"
                 }, void 0, false, {
                     fileName: "[project]/src/app/page.jsx",
-                    lineNumber: 127,
+                    lineNumber: 126,
                     columnNumber: 73
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 125,
+            lineNumber: 124,
             columnNumber: 10
         }, this);
         $[11] = t9;
@@ -264,19 +263,19 @@ function Home() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/src/app/page.jsx",
-                            lineNumber: 134,
+                            lineNumber: 133,
                             columnNumber: 37
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/page.jsx",
-                    lineNumber: 134,
+                    lineNumber: 133,
                     columnNumber: 20
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/page.jsx",
-            lineNumber: 134,
+            lineNumber: 133,
             columnNumber: 11
         }, this);
         $[12] = t10;

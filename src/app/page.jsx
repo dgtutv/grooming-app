@@ -33,7 +33,6 @@ export default function Home() {
                     backgroundColor: "rgba(0, 0, 0, 0.3)",
                     height: "60vh",
                     width: "100%",
-                    borderRadius: "15px",
                     textAlign: "center",
                     padding: "10px 60px",
                     fontSize: "1.3rem"

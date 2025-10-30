@@ -5,6 +5,8 @@
     --active-bg: #202020ff;
     --active-border: yellow;
     --text-primary: black;
+    /* keep legacy variable name used elsewhere in the styles */
+    --text-color: var(--text-primary);
 }
 
 header {
@@ -16,6 +18,7 @@ header {
     box-shadow: 0 4px 6px var(--box-shadow);
     margin: 0;
     color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
 }
 
 nav {
