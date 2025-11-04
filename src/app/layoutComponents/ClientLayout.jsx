@@ -4,6 +4,7 @@ import Header from './Header';
 import { usePathname } from 'next/navigation';
 import { ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
 import { useMemo } from 'react';
+import Footer from './Footer';
 
 export default function ClientLayout({ children }) {
     const pathname = usePathname();
@@ -59,6 +60,7 @@ export default function ClientLayout({ children }) {
         <ThemeProvider theme={theme}>
             {showHeader && <Header />}
             {children}
+            <Footer />
         </ThemeProvider>
     );
 }
