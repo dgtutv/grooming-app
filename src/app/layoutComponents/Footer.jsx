@@ -66,9 +66,27 @@ export default function Footer() {
                         width={80}
                         height={80}
                         loading="lazy"
-                        style={{ display: 'block' }}
+                        sx={{
+                            display: 'block',
+                            '&:hover': {
+                                cursor: 'pointer',
+                            }
+                        }}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            router.push("/");
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }}
                     />
-                    <Typography variant='h6'>Chauffeur Grooming</Typography>
+                    <Typography sx={{
+                        '&:hover': {
+                            cursor: 'pointer',
+                        }
+                    }} variant='h6' onClick={(e) => {
+                        e.preventDefault();
+                        router.push("/");
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}>Chauffeur Grooming</Typography>
                 </Box>
                 <Typography variant='subtitle'>Mobile pet grooming delivered to your doorstep.</Typography>
                 <Box id='icons' sx={{

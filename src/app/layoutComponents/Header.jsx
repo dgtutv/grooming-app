@@ -63,12 +63,18 @@ const Header = () => {
                                 width={60}
                                 height={60}
                                 priority
-                                style={{ display: 'block' }}
+                                style={{
+                                    display: 'block',
+                                    '&:hover': {
+                                        cursor: 'pointer',
+                                    }
+                                }}
                                 onClick={(e) => {
                                     e.preventDefault();
                                     router.push('/');
                                     setMobileMenuOpen(false);
                                 }}
+
                             />
                             <Typography
                                 variant="h6"
@@ -76,7 +82,10 @@ const Header = () => {
                                 sx={{
                                     fontFamily: "'Playfair Display', serif",
                                     color: 'var(--text-primary)',
-                                    fontWeight: 500
+                                    fontWeight: 500,
+                                    '&:hover': {
+                                        cursor: 'pointer',
+                                    }
                                 }}
                                 onClick={(e) => {
                                     e.preventDefault();
@@ -129,13 +138,24 @@ const Header = () => {
                             width={80}
                             height={80}
                             priority
-                            style={{ display: 'block' }}
+                            style={{
+                                display: 'block',
+                                '&:hover': {
+                                    cursor: 'pointer',
+                                }
+                            }}
                             onClick={(e) => {
                                 e.preventDefault();
                                 router.push('/');
                             }}
                         />
-                        <Typography variant="h5" component="h1" sx={{ fontFamily: "'Playfair Display', serif", fontWeight: '500' }} onClick={(e) => {
+                        <Typography variant="h5" component="h1" sx={{
+                            fontFamily: "'Playfair Display', serif",
+                            fontWeight: '500',
+                            '&:hover': {
+                                cursor: 'pointer',
+                            }
+                        }} onClick={(e) => {
                             e.preventDefault();
                             router.push('/');
                         }}>
@@ -166,9 +186,20 @@ const Header = () => {
                             width={80}
                             height={80}
                             priority
-                            style={{ display: 'block' }}
+                            style={{
+                                display: 'block',
+                                '&:hover': {
+                                    cursor: 'pointer',
+                                }
+                            }}
                         />
-                        <Typography variant="h4" component="h1" sx={{ fontFamily: "'Playfair Display', serif", fontWeight: '500' }}
+                        <Typography variant="h4" component="h1" sx={{
+                            fontFamily: "'Playfair Display', serif",
+                            fontWeight: '500',
+                            '&:hover': {
+                                cursor: 'pointer',
+                            }
+                        }}
                             onClick={(e) => {
                                 e.preventDefault();
                                 router.push('/');
