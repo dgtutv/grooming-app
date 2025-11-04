@@ -44,7 +44,7 @@ export default function ServicesPage() {
     ];
 
     const fees = [
-        { name: 'Safety and Handling Fee', price: '$30', note: 'Chauffeur Grooming reserves the right to refuse service for unsafe or aggressive dogs. Safety is our top priority for both staff and pets.' },
+        { name: 'Safety and Handling Fee', price: '$30', note: 'Note: Chauffeur Grooming reserves the right to refuse service for unsafe or aggressive dogs. Safety is our top priority for both staff and pets.' },
         { name: 'Coat Condition Fee', price: '$15-$30', note: 'For extra thick, dirty, or matted coats\n*Price may vary' },
     ];
 
