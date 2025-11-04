@@ -65,6 +65,7 @@ export default function Footer() {
                         alt="Chauffeur Grooming logo"
                         width={80}
                         height={80}
+                        loading="lazy"
                         style={{ display: 'block' }}
                     />
                     <Typography variant='h6'>Chauffeur Grooming</Typography>

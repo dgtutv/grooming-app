@@ -62,6 +62,7 @@ const Header = () => {
                                 alt="Chauffeur Grooming logo"
                                 width={60}
                                 height={60}
+                                priority
                                 style={{ display: 'block' }}
                             />
                             <Typography
@@ -70,7 +71,7 @@ const Header = () => {
                                 sx={{
                                     fontFamily: "'Playfair Display', serif",
                                     color: 'var(--text-primary)',
-                                    fontWeight: 600
+                                    fontWeight: 500
                                 }}
                             >
                                 Chauffeur Grooming
@@ -117,9 +118,10 @@ const Header = () => {
                             alt="Chauffeur Grooming logo"
                             width={80}
                             height={80}
+                            priority
                             style={{ display: 'block' }}
                         />
-                        <Typography variant="h5" component="h1" color="text.primary" sx={{ fontFamily: "'Playfair Display', serif" }} onClick={(e) => {
+                        <Typography variant="h5" component="h1" sx={{ fontFamily: "'Playfair Display', serif", fontWeight: '500' }} onClick={(e) => {
                             e.preventDefault();
                             router.push('/');
                         }}>
@@ -149,9 +151,10 @@ const Header = () => {
                             alt="Chauffeur Grooming logo"
                             width={80}
                             height={80}
+                            priority
                             style={{ display: 'block' }}
                         />
-                        <Typography variant="h4" component="h1" color="text.primary" sx={{ fontFamily: "'Playfair Display', serif" }}
+                        <Typography variant="h4" component="h1" sx={{ fontFamily: "'Playfair Display', serif", fontWeight: '500' }}
                             onClick={(e) => {
                                 e.preventDefault();
                                 router.push('/');
