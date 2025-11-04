@@ -1,12 +1,13 @@
 :root {
-    --header-bg: #618367;
+    --header-bg: #8da76f;
     --box-shadow: rgba(0, 0, 0, 0.86);
-    --link-hover: yellow;
-    --active-bg: #202020ff;
+    --active-bg: #ffffff;
+    --link-hover: white;
     --active-border: yellow;
     --text-primary: black;
     /* keep legacy variable name used elsewhere in the styles */
     --text-color: var(--text-primary);
+    --text-hover: #333333;
 }
 
 header {
@@ -56,7 +57,7 @@ nav {
 }
 
 .linkStyle:hover {
-    color: white;
+    color: var(--text-hover);
     background-color: var(--link-hover);
 }
 
@@ -79,4 +80,9 @@ h1 {
     margin: 0;
     font-size: 1.5rem;
     color: var(--text-color);
+}
+
+button.activeLinkStyle {
+    background-color: var(--active-bg) !important;
+    border-bottom: 2px solid var(--active-border) !important;
 }

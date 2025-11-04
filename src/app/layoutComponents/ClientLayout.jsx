@@ -4,7 +4,6 @@ import Header from './Header';
 import { usePathname } from 'next/navigation';
 import { ThemeProvider, createTheme, useMediaQuery } from '@mui/material';
 import { useMemo } from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
 
 export default function ClientLayout({ children }) {
     const pathname = usePathname();
@@ -58,7 +57,6 @@ export default function ClientLayout({ children }) {
 
     return (
         <ThemeProvider theme={theme}>
-            <CssBaseline />
             {showHeader && <Header />}
             {children}
         </ThemeProvider>
