@@ -6,6 +6,7 @@ import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png';
 import markerIcon from 'leaflet/dist/images/marker-icon.png';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png';
 import { MapContainer, TileLayer, Circle, Marker, Popup } from 'react-leaflet';
+import { useMediaQuery, useTheme } from '@mui/material';
 
 // Fix Leaflet's default icon paths so markers render correctly in Next.js builds
 delete L.Icon.Default.prototype._getIconUrl;
@@ -21,10 +22,12 @@ const ABBOTSFORD_COORDS = [49.0504, -122.3045];
 const RADIUS_METERS = 40000; // 10 km radius
 
 function Map() {
+    const theme = useTheme();
+    const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
     return (
         <MapContainer
             center={MAP_COORDS}
-            zoom={9.4}
+            zoom={isMobile ? '8' : '9.4'}
             scrollWheelZoom={false}
             style={{ height: '400px', width: '100%', borderRadius: "12px" }}
         >

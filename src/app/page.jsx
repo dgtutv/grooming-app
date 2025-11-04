@@ -1,8 +1,8 @@
 "use client"
-import Image from "next/image";
-import styles from "./page.module.css";
 import { Box, Card, Button, useMediaQuery, useTheme, Typography } from "@mui/material";
 import dynamic from 'next/dynamic';
+import { useRouter } from 'next/navigation';
+
 
 // Dynamically import the Map component on the client only to avoid server-side
 // evaluation of browser-only libraries (leaflet / react-leaflet).
@@ -11,6 +11,8 @@ const Map = dynamic(() => import('./components/Map'), { ssr: false });
 export default function Home() {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+    const router = useRouter();
+
     return (
         <Box className="main">
             <Box sx={{
@@ -47,8 +49,8 @@ export default function Home() {
                         gap: "20px",
                         marginTop: "40px"
                     }}>
-                        <Button sx={{ color: "white", backgroundColor: "black" }} variant="contained">Our Services</Button>
-                        <Button sx={{ color: "white", backgroundColor: "black" }} variant="contained">Contact Us</Button>
+                        <Button sx={{ color: "white", backgroundColor: "black" }} variant="contained" onClick={() => { router.push('/services') }}>Our Services</Button>
+                        <Button sx={{ color: "white", backgroundColor: "black" }} variant="contained" onClick={() => { router.push('/contact') }}>Contact Us</Button>
                     </Box>
                 </Box>
             </Box>

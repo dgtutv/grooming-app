@@ -44,7 +44,7 @@ export default function ServicesPage() {
     ];
 
     const fees = [
-        { name: 'Safety and Handling Fee', price: '$30', note: 'Chauffeur Grooming reserves the right to refuse service for unsafe or aggressive dogs. Safety is our top priority for both staff and pets.' },
+        { name: 'Safety and Handling Fee', price: '$30', note: 'Note: Chauffeur Grooming reserves the right to refuse service for unsafe or aggressive dogs. Safety is our top priority for both staff and pets.' },
         { name: 'Coat Condition Fee', price: '$15-$30', note: 'For extra thick, dirty, or matted coats\n*Price may vary' },
     ];
 
@@ -72,7 +72,7 @@ export default function ServicesPage() {
                         </Box>
 
                         <Typography variant="body1" sx={{ mb: 3, color: '#666', fontStyle: 'italic' }}>
-                            All base services include: <b>Nail trim and grind, ear cleaning, shampoo and conditioner</b> tailored to your pet&apos;s specific needs.
+                            All base services include: <b>Haircut, nail trim and grind, ear cleaning, shampoo and conditioner</b> tailored to your pet&apos;s specific needs.
                         </Typography>
 
                         <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', sm: '1fr 1fr', md: '1fr 1fr 1fr' }, gap: 2 }}>

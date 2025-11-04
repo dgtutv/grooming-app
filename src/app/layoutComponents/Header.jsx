@@ -64,6 +64,11 @@ const Header = () => {
                                 height={60}
                                 priority
                                 style={{ display: 'block' }}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    router.push('/');
+                                    setMobileMenuOpen(false);
+                                }}
                             />
                             <Typography
                                 variant="h6"
@@ -72,6 +77,11 @@ const Header = () => {
                                     fontFamily: "'Playfair Display', serif",
                                     color: 'var(--text-primary)',
                                     fontWeight: 500
+                                }}
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    router.push('/');
+                                    setMobileMenuOpen(false);
                                 }}
                             >
                                 Chauffeur Grooming
@@ -120,6 +130,10 @@ const Header = () => {
                             height={80}
                             priority
                             style={{ display: 'block' }}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                router.push('/');
+                            }}
                         />
                         <Typography variant="h5" component="h1" sx={{ fontFamily: "'Playfair Display', serif", fontWeight: '500' }} onClick={(e) => {
                             e.preventDefault();
