@@ -48,24 +48,56 @@ ${formData.message}
                 }),
             });
 
+            // Get detailed error response from Resend
+            const resendData = await resendResponse.json();
+
             if (!resendResponse.ok) {
-                throw new Error('Failed to send email via Resend');
+                // Log the full error details
+                console.error('Resend API Error:', {
+                    status: resendResponse.status,
+                    statusText: resendResponse.statusText,
+                    error: resendData
+                });
+
+                // Return specific error message from Resend
+                return NextResponse.json(
+                    { 
+                        error: resendData.message || 'Failed to send email via Resend',
+                        details: resendData,
+                        status: resendResponse.status
+                    },
+                    { status: resendResponse.status }
+                );
             }
 
-            return NextResponse.json({ success: true, message: 'Email sent successfully!' });
+            // Success - log the response
+            console.log('Email sent successfully via Resend:', resendData);
+
+            return NextResponse.json({ 
+                success: true, 
+                message: 'Email sent successfully!',
+                emailId: resendData.id  // Resend returns an email ID
+            });
         }
         else{
-            console.error('Contact form error:', error);
+            console.error('Missing RESEND_API_KEY in environment variables');
             return NextResponse.json(
-                { error: 'Failed to send message. Please try again.' },
+                { error: 'Email service not configured. Please contact support.' },
                 { status: 500 }
             );
         }
 
     } catch (error) {
-        console.error('Contact form error:', error);
+        console.error('Contact form error:', {
+            message: error.message,
+            stack: error.stack,
+            name: error.name
+        });
         return NextResponse.json(
-            { error: 'Failed to send message. Please try again.' },
+            { 
+                error: 'Failed to send message. Please try again.',
+                debug: process.env.NODE_ENV === 'development' ? error.message : undefined
+            },
             { status: 500 }
         );
     }
