@@ -1,5 +1,5 @@
 import { useTheme } from '@emotion/react'
-import { Box, useMediaQuery, Typography } from '@mui/material';
+import { Box, useMediaQuery, Typography, Link } from '@mui/material';
 import React from 'react'
 import Image from 'next/image';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -50,9 +50,10 @@ export default function Footer() {
             <Box id="lh" sx={{
                 display: 'flex',
                 flexDirection: 'column',
-                alignItems: 'flex-start',
+                alignItems: 'center',
                 justifyContent: 'center',
-                gap: '15px'
+                gap: '15px',
+                flexGrow: "2"
             }}>
                 <Box id='logo' sx={{
                     display: 'flex',
