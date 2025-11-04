@@ -18,8 +18,8 @@ export default function Home() {
             <Box sx={{
                 width: "100%",
                 height: "60vh",
-                backgroundImage: "url('./golden-tinted-paws.jpg')",
-                backgroundSize: isMobile ? "fit" : "cover",
+                backgroundImage: isMobile ? "url('./krissy.jpg')" : "url('./wompy.jpg')",
+                backgroundSize: "cover",
                 color: "white",
                 display: "flex",
                 justifyContent: "center",
