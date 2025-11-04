@@ -72,7 +72,7 @@ export default function ServicesPage() {
                         </Box>
 
                         <Typography variant="body1" sx={{ mb: 3, color: '#666', fontStyle: 'italic' }}>
-                            All base services include: <b>Nail trim and grind, ear cleaning, shampoo and conditioner</b> tailored to your pet&apos;s specific needs.
+                            All base services include: <b>Haircut, nail trim and grind, ear cleaning, shampoo and conditioner</b> tailored to your pet&apos;s specific needs.
                         </Typography>
 
                         <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', sm: '1fr 1fr', md: '1fr 1fr 1fr' }, gap: 2 }}>
