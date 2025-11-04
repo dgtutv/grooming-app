@@ -1,13 +1,14 @@
 :root {
     --header-bg: #8da76f;
     --box-shadow: rgba(0, 0, 0, 0.86);
-    --active-bg: #ffffff;
-    --link-hover: white;
-    --active-border: yellow;
+    --active-bg: #515f41;
+    --link-hover: black;
+    --active-border: white;
     --text-primary: black;
     /* keep legacy variable name used elsewhere in the styles */
     --text-color: var(--text-primary);
-    --text-hover: #333333;
+    --text-hover: white;
+    --link-bg-color: #8ea76e;
 }
 
 header {

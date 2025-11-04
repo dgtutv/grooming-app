@@ -43,28 +43,72 @@ const Header = () => {
                             "& .MuiDrawer-paper": {
                                 width: "280px",
                                 maxWidth: "75vw",
-                                bgcolor: '#000000',
-                                borderRight: 1,
-                                borderColor: 'divider',
+                                bgcolor: 'var(--header-bg)',
+                                borderRight: '1px solid var(--text-primary)',
                                 display: 'flex',
                                 flexDirection: 'column',
-                                p: 2,
                             },
                         }}
                     >
-                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
-                            {navLinks.map((link) => (
-                                <Button
-                                    key={link.href}
-                                    onClick={() => {
-                                        setMobileMenuOpen(false);
-                                        router.push(link.href);
-                                    }}
-                                    sx={{ justifyContent: 'flex-start', color: '#fff', textTransform: 'none' }}
-                                >
-                                    {link.label}
-                                </Button>
-                            ))}
+                        <Box sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 2,
+                            p: 2,
+                            borderBottom: '1px solid var(--text-primary)'
+                        }}>
+                            <Image
+                                src="/logo-outline.svg"
+                                alt="Chauffeur Grooming logo"
+                                width={60}
+                                height={60}
+                                style={{ display: 'block' }}
+                            />
+                            <Typography
+                                variant="h6"
+                                component="div"
+                                sx={{
+                                    fontFamily: "'Playfair Display', serif",
+                                    color: 'var(--text-primary)',
+                                    fontWeight: 600
+                                }}
+                            >
+                                Chauffeur Grooming
+                            </Typography>
+                        </Box>
+                        <Box sx={{ display: 'flex', flexDirection: 'column', gap: 0.5, p: 2 }}>
+                            {navLinks.map((link) => {
+                                const isActive = link.href === '/' ? pathname === '/' : pathname?.startsWith(link.href);
+                                return (
+                                    <Button
+                                        key={link.href}
+                                        onClick={() => {
+                                            setMobileMenuOpen(false);
+                                            router.push(link.href);
+                                        }}
+                                        className={isActive ? 'activeLinkStyle' : 'linkStyle'}
+                                        sx={{
+                                            justifyContent: 'flex-start',
+                                            textTransform: 'none',
+                                            fontSize: '1rem',
+                                            fontWeight: 500,
+                                            backgroundColor: 'transparent',
+                                            color: 'var(--text-primary)',
+                                            '&:hover': {
+                                                backgroundColor: 'var(--link-hover)',
+                                                color: 'var(--text-hover)',
+                                            },
+                                            ...(isActive && {
+                                                backgroundColor: 'var(--active-bg)',
+                                                color: 'white',
+                                                borderBottom: '2px solid var(--active-border)',
+                                            }),
+                                        }}
+                                    >
+                                        {link.label}
+                                    </Button>
+                                );
+                            })}
                         </Box>
                     </Drawer>
                     <Box className="headerInner">
@@ -116,18 +160,38 @@ const Header = () => {
                         </Typography>
                     </Box>
                     <Box sx={{ display: 'flex', gap: 2, ml: 4 }}>
-                        {navLinks.map((link) => (
-                            <Button
-                                key={link.href}
-                                component={Link}
-                                href={link.href}
-                                color="inherit"
-                                variant="text"
-                                className={pathname === link.href ? 'activeLinkStyle' : 'linkStyle'}
-                            >
-                                {link.label}
-                            </Button>
-                        ))}
+                        {navLinks.map((link) => {
+                            const isActive = link.href === '/' ? pathname === '/' : pathname?.startsWith(link.href);
+                            return (
+                                <Button
+                                    key={link.href}
+                                    onClick={() => {
+                                        setMobileMenuOpen(false);
+                                        router.push(link.href);
+                                    }}
+                                    className={isActive ? 'activeLinkStyle' : 'linkStyle'}
+                                    sx={{
+                                        justifyContent: 'flex-start',
+                                        textTransform: 'none',
+                                        fontSize: '1rem',
+                                        fontWeight: 500,
+                                        backgroundColor: 'transparent',
+                                        color: 'var(--text-primary)',
+                                        '&:hover': {
+                                            backgroundColor: 'var(--link-hover)',
+                                            color: 'var(--text-hover)',
+                                        },
+                                        ...(isActive && {
+                                            backgroundColor: 'var(--active-bg)',
+                                            color: 'white',
+                                            borderBottom: '2px solid var(--active-border)',
+                                        }),
+                                    }}
+                                >
+                                    {link.label}
+                                </Button>
+                            );
+                        })}
                     </Box>
                 </Box >
             )
