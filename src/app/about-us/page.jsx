@@ -32,7 +32,7 @@ export default function Page() {
     return (
         <Box sx={{ bgcolor: "#9492a3ff" }}>
             <Box sx={{ maxWidth: 1100, mx: 'auto', px: 2, py: 6 }}>
-                <Typography variant="h4" component="h1" sx={{ textAlign: 'center', mb: 2, color: "white", fontSize: "2.5rem" }}>About Us</Typography>
+                <Typography variant="h4" component="h1" sx={{ textAlign: 'center', mb: 2, color: "white", fontSize: "2.5rem", fontWeight: 500 }}>About Us</Typography>
                 <Typography variant="subtitle1" color="text.secondary" sx={{ textAlign: 'center', mb: 4, color: "white" }}>
                     At Chauffeur Grooming, our mission is to make grooming as convenient, comfortable, and safe as possible. We focus on creating a calm, one-on-one experience in a clean and stress-free environment. Your pet&apos;s comfort and safety are always our top priority.
                 </Typography>
