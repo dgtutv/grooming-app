@@ -12,7 +12,7 @@ export default function Home() {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
     return (
-        <Box sx={{ bgcolor: "#9492a3ff" }}>
+        <Box className="main">
             <Box sx={{
                 width: "100%",
                 height: "60vh",

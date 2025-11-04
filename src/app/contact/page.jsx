@@ -64,8 +64,7 @@ export default function ContactPage() {
     };
 
     return (
-        <Box sx={{
-            bgcolor: "#9492a3ff",
+        <Box className='main' sx={{
             minHeight: "100vh",
             display: "flex",
             alignItems: "center",

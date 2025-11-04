@@ -49,20 +49,11 @@ export default function ServicesPage() {
     ];
 
     return (
-        <Box sx={{ bgcolor: '#9492a3ff', minHeight: '100vh', py: 6 }}>
+        <Box className='main' sx={{ minHeight: '100vh', py: 6 }}>
             <Container maxWidth="lg">
                 {/* Header */}
                 <Box sx={{ textAlign: 'center', mb: 5 }}>
-                    <Typography
-                        variant="h3"
-                        component="h1"
-                        color='#ffffffff'
-                        sx={{
-                            fontFamily: "'Playfair Display', serif",
-                            fontWeight: 500,
-                            mb: 2,
-                        }}
-                    >
+                    <Typography variant="h3" component="h1" className='baseText'>
                         Our Services
                     </Typography>
                     <Alert severity="info" sx={{ maxWidth: '800px', mx: 'auto', mb: 3 }}>
