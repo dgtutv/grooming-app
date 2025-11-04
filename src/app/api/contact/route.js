@@ -40,7 +40,7 @@ ${formData.message}
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    from: 'Chauffeur Grooming <noreply@chauffeur-grooming.up.railway.app>',
+                    from: 'onboarding@resend.dev',
                     to: [process.env.CONTACT_EMAIL || 'chauffeurgrooming@example.com'],
                     subject: `Grooming Inquiry from ${formData.ownerName}`,
                     text: emailBody,
