@@ -40,7 +40,7 @@ ${formData.message}
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                    from: 'Chauffeur Grooming <onboarding@resend.dev>', // Change to your verified domain
+                    from: 'Chauffeur Grooming <noreply@chauffeur-grooming.up.railway.app>',
                     to: [process.env.CONTACT_EMAIL || 'chauffeurgrooming@example.com'],
                     subject: `Grooming Inquiry from ${formData.ownerName}`,
                     text: emailBody,
