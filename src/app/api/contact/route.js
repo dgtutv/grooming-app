@@ -41,8 +41,7 @@ ${formData.message}
                 },
                 body: JSON.stringify({
                     from: 'onboarding@resend.dev',
-                    //to: [process.env.CONTACT_EMAIL || 'chauffeurgrooming@example.com'],
-                    to: 'dgtutv@gmail.com',
+                    to: process.env.CONTACT_EMAIL,
                     subject: `Grooming Inquiry from ${formData.ownerName}`,
                     text: emailBody,
                     reply_to: formData.ownerEmail,
