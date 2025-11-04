@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/page.module.css [app-ssr] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"ctas\": \"page-module___8aEwW__ctas\",\n  \"intro\": \"page-module___8aEwW__intro\",\n  \"logo\": \"page-module___8aEwW__logo\",\n  \"main\": \"page-module___8aEwW__main\",\n  \"page\": \"page-module___8aEwW__page\",\n  \"primary\": \"page-module___8aEwW__primary\",\n  \"secondary\": \"page-module___8aEwW__secondary\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}},
-    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["file:///home/dgtutv/grooming-app/src/app/page.jsx"],"sourcesContent":["\"use client\"\nimport Image from \"next/image\";\nimport styles from \"./page.module.css\";\nimport { Box, Card, Button, useMediaQuery, useTheme, Typography } from \"@mui/material\";\n\nexport default function Home() {\n  const theme = useTheme();\n  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));\n  return (\n    <Box sx={{\n      width: \"100%\",\n      height: \"70vh\",\n      backgroundImage: \"url('./cover.jpg')\",\n    }}>\n    </Box>\n\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;AACA;AACA;AAAA;AAAA;AAHA;;;;;AAKe,SAAS;IACtB,MAAM,QAAQ,IAAA,iNAAQ;IACtB,MAAM,WAAW,IAAA,+NAAa,EAAC,MAAM,WAAW,CAAC,IAAI,CAAC;IACtD,qBACE,8OAAC,+LAAG;QAAC,IAAI;YACP,OAAO;YACP,QAAQ;YACR,iBAAiB;QACnB;;;;;;AAIJ","debugId":null}}]
-}
