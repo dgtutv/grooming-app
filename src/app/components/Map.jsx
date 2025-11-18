@@ -29,6 +29,10 @@ function Map() {
             center={MAP_COORDS}
             zoom={isMobile ? '8' : '9.4'}
             scrollWheelZoom={false}
+            dragging={!isMobile}
+            touchZoom={!isMobile}
+            doubleClickZoom={!isMobile}
+            zoomControl={!isMobile}
             style={{ height: '400px', width: '100%', borderRadius: "12px" }}
         >
             <TileLayer
