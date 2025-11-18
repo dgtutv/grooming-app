@@ -110,7 +110,7 @@ export default function Home() {
                             style={{
                                 objectFit: "cover",
                                 filter: "blur(20px)",
-                                transform: "scale(1.1)",
+                                transform: "scale(1)",
                             }}
                             priority
                             sizes="100vw"
@@ -126,7 +126,7 @@ export default function Home() {
                         aspectRatio: { xs: 'auto' },
                         '@media (min-width: 850px)': {
                             width: 'auto',
-                            aspectRatio: '3/4'
+                            aspectRatio: '4032/3024'
                         },
                         zIndex: 1
                     }}>
