@@ -90,17 +90,57 @@ export default function Home() {
                     position: "relative",
                     display: "flex",
                     justifyContent: "center",
-                    alignItems: "center"
+                    alignItems: "center",
+                    overflow: "hidden"
                 }}>
-                    {/* Background image using Next.js Image for better performance */}
-                    <Image
-                        src={isMobile ? "/krissy.jpg" : "/wompy.jpg"}
-                        alt="Professional mobile pet grooming service - groomed dog"
-                        fill
-                        style={{ objectFit: "cover" }}
-                        priority
-                        sizes="100vw"
-                    />
+                    {/* Blurred background for wide screens only (>850px) */}
+                    <Box sx={{
+                        position: "absolute",
+                        width: "100%",
+                        height: "100%",
+                        display: { xs: 'none' },
+                        '@media (min-width: 850px)': {
+                            display: 'block'
+                        }
+                    }}>
+                        <Image
+                            src="/ruby.JPG"
+                            alt=""
+                            fill
+                            style={{
+                                objectFit: "cover",
+                                filter: "blur(20px)",
+                                transform: "scale(1.1)",
+                            }}
+                            priority
+                            sizes="100vw"
+                            aria-hidden="true"
+                        />
+                    </Box>
+
+                    {/* Main centered image using Next.js Image for better performance */}
+                    <Box sx={{
+                        position: "absolute",
+                        height: "100%",
+                        width: { xs: '100%' },
+                        aspectRatio: { xs: 'auto' },
+                        '@media (min-width: 850px)': {
+                            width: 'auto',
+                            aspectRatio: '3/4'
+                        },
+                        zIndex: 1
+                    }}>
+                        <Image
+                            src={isMobile ? "/vertical.jpeg" : "/ruby.JPG"}
+                            alt="Professional mobile pet grooming service - groomed dog"
+                            fill
+                            style={{
+                                objectFit: "cover",
+                            }}
+                            priority
+                            sizes="(max-width: 850px) 100vw, 50vw"
+                        />
+                    </Box>
 
                     <Box sx={{
                         display: "flex",
