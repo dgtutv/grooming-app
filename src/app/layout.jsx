@@ -14,12 +14,75 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Chauffeur Grooming",
-  description: "Mobile grooming delivered to your doorstep",
+  // TODO: Customize this default title and description for your business
+  title: {
+    default: "Chauffeur Grooming | Mobile Pet Grooming in Fraser Valley, BC",
+    template: "%s | Chauffeur Grooming"
+  },
+  description: "Professional mobile pet grooming delivered to your doorstep in the Fraser Valley. Certified groomers specializing in stress-free, one-on-one grooming for dogs and cats. Serving Abbotsford and surrounding areas.",
+  keywords: ["mobile pet grooming", "dog grooming", "cat grooming", "Fraser Valley grooming", "Abbotsford pet grooming", "mobile groomer", "professional pet grooming", "canine esthetician"],
+  authors: [{ name: "Chauffeur Grooming" }],
+  creator: "Chauffeur Grooming",
+  publisher: "Chauffeur Grooming",
+
+  // TODO: Update these URLs if you get a custom domain
+  metadataBase: new URL('https://chauffeur-grooming.up.railway.app'),
+  alternates: {
+    canonical: '/',
+  },
+
+  // Open Graph metadata for social media sharing
+  // TODO: Create a social-preview.jpg image (1200x630px recommended) and update this path
+  openGraph: {
+    title: "Chauffeur Grooming | Mobile Pet Grooming in Fraser Valley",
+    description: "Professional mobile pet grooming delivered to your doorstep. Certified groomers specializing in stress-free care for dogs and cats.",
+    url: 'https://chauffeur-grooming.up.railway.app',
+    siteName: 'Chauffeur Grooming',
+    images: [
+      {
+        url: '/logo-outline.svg', // TODO: Replace with /social-preview.jpg for better social sharing
+        width: 1200,
+        height: 630,
+        alt: 'Chauffeur Grooming - Mobile Pet Grooming Service',
+      }
+    ],
+    locale: 'en_CA',
+    type: 'website',
+  },
+
+  // Twitter Card metadata
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Chauffeur Grooming | Mobile Pet Grooming',
+    description: 'Professional mobile pet grooming in Fraser Valley, BC',
+    images: ['/logo-outline.svg'], // TODO: Replace with /social-preview.jpg
+  },
+
+  // Verification tags (add when you set up Google Search Console, etc.)
+  // TODO: Uncomment and add verification codes when ready
+  // verification: {
+  //   google: 'your-google-verification-code',
+  //   yandex: 'your-yandex-verification-code',
+  //   bing: 'your-bing-verification-code',
+  // },
+
   icons: {
     icon: "/logo-outline.svg",
     shortcut: "/logo-outline.svg",
     apple: "/logo-outline.svg",
+  },
+
+  // Robots meta tag
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 

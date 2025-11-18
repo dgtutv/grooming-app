@@ -88,10 +88,10 @@ export default function Footer() {
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                     }}>Chauffeur Grooming</Typography>
                 </Box>
-                <Typography variant='subtitle'>Mobile pet grooming delivered to your doorstep.</Typography>
+                <Typography variant='subtitle' sx={{ textAlign: 'center' }}>Mobile pet grooming delivered to your doorstep.</Typography>
                 <Box id='icons' sx={{
                     display: 'flex',
-                    justifyContent: 'flex-start',
+                    justifyContent: 'center',
                     alignItems: 'center',
                     gap: "20px"
                 }}>
