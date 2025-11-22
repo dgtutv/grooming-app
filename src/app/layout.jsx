@@ -40,7 +40,7 @@ export const metadata = {
     siteName: 'Chauffeur Grooming',
     images: [
       {
-        url: '/search-image.jpg',
+        url: '/ruby.JPG',
         width: 1200,
         height: 630,
         alt: 'Chauffeur Grooming - Mobile Pet Grooming Service',
@@ -55,7 +55,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Chauffeur Grooming | Mobile Pet Grooming',
     description: 'Professional mobile pet grooming in Fraser Valley, BC',
-    images: ['/search-image.jpg'],
+    images: ['/ruby.JPG'],
   },
 
   // Verification tags (add when you set up Google Search Console, etc.)
@@ -67,9 +67,12 @@ export const metadata = {
   // },
 
   icons: {
-    icon: "/logo-outline.svg",
-    shortcut: "/logo-outline.svg",
-    apple: "/logo-outline.svg",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
 
   // Robots meta tag
