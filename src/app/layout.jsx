@@ -40,7 +40,7 @@ export const metadata = {
     siteName: 'Chauffeur Grooming',
     images: [
       {
-        url: '/logo-outline.svg', // TODO: Replace with /social-preview.jpg for better social sharing
+        url: '/search-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Chauffeur Grooming - Mobile Pet Grooming Service',
@@ -55,7 +55,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Chauffeur Grooming | Mobile Pet Grooming',
     description: 'Professional mobile pet grooming in Fraser Valley, BC',
-    images: ['/logo-outline.svg'], // TODO: Replace with /social-preview.jpg
+    images: ['/search-image.jpg'],
   },
 
   // Verification tags (add when you set up Google Search Console, etc.)
