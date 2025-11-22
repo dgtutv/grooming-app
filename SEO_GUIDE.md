@@ -198,9 +198,9 @@ verification: {
 - [x] Add exact GPS coordinates for your location
 - [x] Link your social media accounts
 - [ ] Create and upload social-preview.jpg (1200x630px)
-- [ ] Set up Google Search Console
+- [x] Set up Google Search Console
 - [ ] Create Google Business Profile
-- [ ] Submit sitemap to Google Search Console
+- [x] Submit sitemap to Google Search Console
 - [x] Test all pages on mobile devices
 - [ ] Check page speed with Google PageSpeed Insights
 
