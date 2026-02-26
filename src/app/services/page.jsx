@@ -16,7 +16,7 @@ export default function ServicesPage() {
         "provider": {
             "@type": "LocalBusiness",
             "name": "Chauffeur Grooming",
-            "url": "https://chauffeur-grooming.up.railway.app"
+            "url": "https://chauffeurgrooming.com"
         },
         "areaServed": {
             "@type": "City",

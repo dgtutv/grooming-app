@@ -18,11 +18,11 @@ export default function Home() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "@id": "https://chauffeur-grooming.up.railway.app",
+        "@id": "https://chauffeurgrooming.com",
         "name": "Chauffeur Grooming",
-        "image": "https://chauffeur-grooming.up.railway.app/logo-outline.svg",
+        "image": "https://chauffeurgrooming.com/logo-outline.svg",
         "description": "Professional mobile pet grooming service in Fraser Valley, BC. Certified groomers providing stress-free, personalized care for dogs and cats at your doorstep.",
-        "url": "https://chauffeur-grooming.up.railway.app",
+        "url": "https://chauffeurgrooming.com",
         "telephone": "+1-604-353-6087",
         "email": "chauffeurgrooming@gmail.com",
         "address": {

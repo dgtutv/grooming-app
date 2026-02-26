@@ -8,7 +8,7 @@ export const metadata = {
     openGraph: {
         title: "About Chauffeur Grooming - Our Team",
         description: "Professional certified groomers specializing in stress-free mobile pet grooming",
-        url: 'https://chauffeur-grooming.up.railway.app/about-us',
+        url: 'https://chauffeurgrooming.com/about-us',
         images: ['/logo-outline.svg'],
     },
     alternates: {

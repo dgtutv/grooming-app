@@ -26,7 +26,7 @@ export const metadata = {
   publisher: "Chauffeur Grooming",
 
   // TODO: Update these URLs if you get a custom domain
-  metadataBase: new URL('https://chauffeur-grooming.up.railway.app'),
+  metadataBase: new URL('https://chauffeurgrooming.com'),
   alternates: {
     canonical: '/',
   },

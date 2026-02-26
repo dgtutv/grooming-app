@@ -8,7 +8,7 @@ export default function ContactPage() {
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "ContactPage",
-        "url": "https://chauffeur-grooming.up.railway.app/contact",
+        "url": "https://chauffeurgrooming.com/contact",
         "mainEntity": {
             "@type": "LocalBusiness",
             "name": "Chauffeur Grooming",

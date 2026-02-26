@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://chauffeur-grooming.up.railway.app/sitemap.xml
+Sitemap: /sitemap.xml
